@@ -102,6 +102,10 @@ public class User {
         }
     }
 
+    public static User[] loadAllByGroupId(Connection conn) throws SQLException {
+
+    }
+
     //============================================================================
 
     public int getId() {
